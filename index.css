@@ -109,15 +109,13 @@
   cursor: pointer;
 }
 .Container_A {
-  display: flex;
   background-color: yellow;
   margin-left: 120px;
   margin-right: 120px;
-  height: 600px;
-  padding-left: 150px;
-  padding-right: 150px;
+  height: 900px;
 }
 .UpperDiv {
+  margin-left: 150px;
   display: flex;
   width: 100%;
 }
@@ -147,6 +145,10 @@
   font-size: 18px;
   font-weight: bold;
 }
+#Text_B:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
 #TextB_B {
   font-size: 12px;
 }
@@ -161,10 +163,11 @@
   width: 100%;
   justify-content: center;
   gap: 15px;
+  margin-right: 150px;
 }
 .ChildA_B {
   display: flex;
-  border: 1px solid grey;
+  border: 1px solid rgba(216, 206, 206, 0.712);
   height: 260px;
   width: 180px;
   background-color: white;
@@ -196,4 +199,39 @@
 }
 .ContainerCircle {
   display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  gap: 10px;
+  justify-content: center;
+}
+.BaseImgChild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: 130px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  background-color: white;
+}
+.ImageChild {
+  height: 85px;
+  width: 85px;
+}
+#Slogan {
+  margin-top: 50px;
+}
+.Text_Circle {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  text-align: center;
+}
+#PText {
+  color: blue;
+}
+#PText:hover {
+  color: darkblue;
+  text-decoration: underline;
+  cursor: pointer;
 }
