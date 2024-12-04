@@ -235,3 +235,336 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.Container_B {
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-top: 60px;
+}
+.ItemsFlex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.NextImageChild {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 250px;
+  width: 360px;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.ImageChild_A {
+  height: 120px;
+  width: 220px;
+}
+#TextFlex {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+#TextFlex:hover {
+  color: darkblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#HrLine {
+  padding-top: 20px;
+  padding-left: 115px;
+  padding-right: 115px;
+  font-weight: bold;
+}
+.TwoDivFlex {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 70px;
+}
+.One {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  border: 1px solid lightgray;
+  gap: 30px;
+  border-radius: 5px;
+}
+.FrInsider {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 40%;
+  color: brown;
+}
+.SecIncider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  width: 60%;
+}
+.Insider_A {
+  width: 110px;
+  height: 30px;
+  margin: 10px;
+  border: 2px solid blue;
+  background-color: blue;
+  border-radius: 7px;
+  text-align: center;
+  color: gold;
+  align-items: center;
+  display: flex;
+  font-weight: bolder;
+}
+.Two {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightgray;
+  align-items: center;
+  gap: 50px;
+  border-radius: 5px;
+}
+#Insider_Btxt {
+  color: blue;
+}
+#Insider_Btxt:hover {
+  color: darkblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#Sec_BInsiderTxt {
+  border: 2px solid black;
+  color: blue;
+  height: 30px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+#Sec_BInsiderTxt:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
+.RedyImage {
+  height: 500px;
+  width: 500px;
+  padding-top: 30px;
+}
+.BlImage {
+  height: 100%;
+  width: 100%;
+}
+.ThirdLastDiv {
+  padding-top: 40px;
+}
+.Relative {
+  position: relative;
+}
+.Absolute {
+  padding-left: 15px;
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.WrapA {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+#ShopA {
+  font-size: 18px;
+  font-weight: bolder;
+  color: yellow;
+  margin-top: -10px;
+  width: fit-content;
+}
+#ShopA:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Absolute_B {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  width: 79%;
+  height: 100%;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding-right: 30px;
+}
+.AbsoluteChild {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 250px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.AbsoluteImage {
+  height: 110px;
+  width: 110px;
+}
+.AbsoluteImageA {
+  height: 100px;
+  width: 140px;
+}
+.BaseTxt_A {
+  display: flex;
+  justify-content: center;
+  align-content: first baseline;
+  color: blue;
+}
+.BaseTxt_A:hover {
+  text-decoration: underline;
+  color: darkblue;
+  cursor: pointer;
+}
+.LoveImg {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40px;
+}
+.LoveImage {
+  height: 25px;
+  width: 25px;
+}
+.Container_C {
+  padding-right: 20px;
+  padding-top: 40px;
+}
+.FlexCont {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  gap: 15px;
+}
+.DivA {
+  display: flex;
+  padding: 15px;
+  width: 33%;
+  gap: 15px;
+  flex-direction: column;
+  background-color: blue;
+  background-image: linear-gradient(to top, rgb(63, 78, 209), rgb(99, 67, 241));
+  align-items: center;
+  padding-top: 20px;
+}
+.DivA_A {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.DivA_B {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.DivB {
+  display: flex;
+  padding: 15px;
+  width: 33%;
+  gap: 15px;
+  flex-direction: column;
+  background-color: blue;
+  background-image: linear-gradient(to top, rgb(63, 78, 209), rgb(99, 67, 241));
+}
+.DivB_A {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.DivB_B {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.DivC {
+  display: flex;
+  padding: 15px;
+  width: 33%;
+  gap: 15px;
+  flex-direction: column;
+  background-color: blue;
+  background-image: linear-gradient(to top, rgb(63, 78, 209), rgb(99, 67, 241));
+}
+.DivC_A {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.DivC_B {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.DivChild_L {
+  width: 50%;
+  height: 25vh;
+}
+.Text_Divs {
+  display: flex;
+  text-align: left;
+  gap: 200px;
+  align-items: start;
+  color: yellow;
+}
+.Text_Divs :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.ImageLastDiv {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.Hrp {
+  margin-top: 70px;
+}
+.ContainerFooter {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  padding-top: 50px;
+}
+.A {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.Txt {
+  font-size: 15px;
+  color: blue;
+}
+.Thelast {
+  display: flex;
+}
+.Last {
+  display: flex;
+  gap: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+.End {
+  font-size: 13px;
+  color: blue;
+}
